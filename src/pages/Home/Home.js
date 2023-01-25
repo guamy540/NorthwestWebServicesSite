@@ -8,7 +8,7 @@ const Home = () => {
 
       <div className='SplashContainer row background-tint justify-center items-center'>
         <div className='DescriptionSplash text-white column'>
-          <h1 className='text-white text-4xl uppercase'>Web development tailored to your budget.</h1>
+          <h1 className='text-white text-4xl uppercase'>Web development tailored to your budget</h1>
           <p className='m-10'>Unleash the full potential of your small to medium sized business with Northwest Web Services. 
             Our tailored solutions are designed to meet your specific needs and budget, 
             ensuring the perfect online presence for your unique business.</p>
