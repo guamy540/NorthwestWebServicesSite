@@ -2,6 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-html,body{
-    margin:0;
-    }
+.FooterContainer{
+    background: rgb(37, 33, 31);
+}
