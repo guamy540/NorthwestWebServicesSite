@@ -16,23 +16,25 @@ const Home = () => {
         </div>
 
         <div className='column'>
-          <div className='QuoteCard bg-gray-400 rounded-lg m-8 p-4'>
-            <h2 className='pb-1'>Get a Free Quote</h2>
-            <p className='pb-3'>Learn about our 
-              <span className='text-lime-900 font-semibold'> step-by-step process.</span>
-            </p>
-            <form name="form" className='contactRow flex flex-col'>
-              <input type="text" name="name" placeholder='Name'
-              className="form-control ml-4 mr-4 rounded-md"/>
-              <input type="email" name="user_email" placeholder='Email'
-              className="form-control rounded-md m-4"/>
-              <p className='text-left ml-4 font-semibold'>Range:</p>
-              <input type="text" name="user_email" placeholder='$500-$15,000'
-              className="form-control rounded-md ml-4 mr-4 mb-4 mt-2"/>
-              <textarea name='message' rows='4' placeholder='Brief description about how we can help'
-              className="form-control m-4 rounded-md"/>
-              <input type='submit' className="bg-black text-white w-32 h-12 rounded-lg ml-4 mb-4"/>
-            </form>
+          <div className='QuoteCardContainer'>
+            <div className='QuoteCard bg-gray-400 rounded-lg m-8 p-4'>
+              <h2 className='pb-1'>Get a Free Quote</h2>
+              <p className='pb-3'>Learn about our 
+                <span className='text-lime-900 font-semibold'> step-by-step process.</span>
+              </p>
+              <form name="form" className='contactRow flex flex-col'>
+                <input type="text" name="name" placeholder='Name'
+                className="form-control ml-4 mr-4 rounded-md"/>
+                <input type="email" name="user_email" placeholder='Email'
+                className="form-control rounded-md m-4"/>
+                <p className='text-left ml-4 font-semibold'>Range:</p>
+                <input type="text" name="user_email" placeholder='$500-$15,000'
+                className="form-control rounded-md ml-4 mr-4 mb-4 mt-2"/>
+                <textarea name='message' rows='4' placeholder='Brief description about how we can help'
+                className="form-control m-4 rounded-md"/>
+                <input type='submit' className="bg-black text-white w-32 h-12 rounded-lg ml-4 mb-4"/>
+              </form>
+            </div>
           </div>
         </div>
       </div>
