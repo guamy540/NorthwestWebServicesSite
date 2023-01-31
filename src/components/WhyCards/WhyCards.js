@@ -8,6 +8,9 @@ const WhyCards = () => {
       {whyData.map((reason) => {
         return (
             <div key={reason.id} className='WhyCard'>
+                <div>
+                  <img src={reason.image} alt='reason'/>
+                </div>
                 <h6 className='WhyHeader'>{reason.reason}</h6>
                 <p className='WhyDescription'>{reason.description}</p>
             </div>

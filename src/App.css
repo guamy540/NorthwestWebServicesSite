@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+:root{
+    --primary1: #FAEF7C;
+    --primary2: #E3CCB2;
+    --primary3: #E26274;
+    --primary4: #78589F;
+}
+
 html,body{
     margin:0;
     }

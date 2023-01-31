@@ -9,13 +9,6 @@ html,body{
     background-attachment: fixed;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     min-height: 82vh;
-    display: flex;
-    flex-direction: column;
-    align-items: left;
-    padding-left: 5rem;
-    justify-content: center;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 
 .background-tint{
@@ -36,25 +29,6 @@ html,body{
     font-size: larger;
     background: var(--primary2);
     color: black;
-}
-
-.SplashHeader{
-    max-width: 80%;
-    padding-bottom: 2rem;
-    border-bottom: solid white;
-}
-
-.SplashTextButtonContainer{
-    margin-top: 1.2rem;
-    display: flex;
-}
-
-.SplashTaglineContainer{
-    max-width: 55rem;
-}
-
-.SplashTaglineContainer > h2 {
-    font-size: 1.2rem;
 }
 
 .ContactNowContainer > a >button {
@@ -87,31 +61,8 @@ html,body{
     background: var(--primary2);
 }
 
-@media(max-width: 1150px){
-    .SplashContainer{
-        padding-left: 0;
-    }
-    .SplashTextButtonContainer{
-        flex-direction: column;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-    .SplashContactButton{
-        margin-top: 1rem;
-    }
-}
 
 @media (max-width: 700px) {
-
-    .SplashContainer{
-        text-align: center;
-        align-items: center;
-    }
-
-    .SplashHeader{
-        border-bottom: none;
-    }
-
     .row{
         flex-direction: column;
       }

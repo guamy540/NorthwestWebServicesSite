@@ -1,0 +1,5 @@
+export {default as ecommerceImage} from './images/ecommerce.jpg'
+export {default as expertiseImage} from './images/expertise.png'
+export {default as eyesImage} from './images/eyes.png'
+export {default as open247Image} from './images/open247.png'
+export {default as twinLakesImage} from './images/twinLakes.jpg'
